@@ -1,0 +1,15 @@
+{
+    "homepage": {
+        "page": "index",
+        "languages": {
+            "pl": {
+                "pattern": "/:language(pl)",
+                "segment": ""
+            },
+            "en": {
+                "pattern": "/:language(en)",
+                "segment": ""
+            }
+        }
+    }
+}
