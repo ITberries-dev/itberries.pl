@@ -1,3 +1,7 @@
 .LandingPage {
     font-family: 'Valera', sans-serif;
+    
+    @include for-size($sm) {
+        color: $primary-color;
+    }
 }
