@@ -1,0 +1,46 @@
+.LandingPage {
+  font-family: "Varela", sans-serif;
+  //roboczo
+  background-color: $primary-background-color;
+  height: 100vh;
+
+  @include for-size($sm) {
+    color: $primary-color;
+  }
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2rem;
+  padding: 11rem auto;
+  margin-top: 4rem;
+  background-color: $primary-background-color;
+
+  @include for-size($sm) {
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+.fancy-title {
+  margin-bottom: 0.5rem;
+
+  h2 {
+    font-size: 7rem;
+    font-weight: 400;
+    @include for-size($md) {
+      font-size: 3rem;
+    }
+  }
+
+  .title-color {
+    color: $primary-color;
+  }
+
+  .title-normal {
+    color: $text-color;
+    padding-top: 1rem;
+    padding-left: 5.3rem;
+  }
+}
