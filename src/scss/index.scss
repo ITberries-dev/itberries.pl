@@ -1,14 +1,16 @@
 /*---abstracts---*/
-@import 'abstracts/colors';
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@import "abstracts/colors";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
 /*---base---*/
-@import 'base/fonts';
-@import 'base/resets';
+@import "base/fonts";
+@import "base/resets";
 
 /*---components---*/
-@import 'components/Button';
+@import "components/Button";
+@import "components/Navigation";
+@import "components/Slider";
 
 /*---pages---*/
-@import 'pages/LandingPage';
+@import "pages/LandingPage";

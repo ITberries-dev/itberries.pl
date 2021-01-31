@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
+import "../../scss/index.scss";
+import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <nav className="Header">
-      navigation
-    </nav>
+    <header>
+      <Navigation />
+    </header>
   );
 }
 

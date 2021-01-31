@@ -1,0 +1,11 @@
+// ja sobie zazwyczaj ustawiam 10px na calosci, zeby pozniej sie remy latwo przeliczalo (human xd) nie wiem czy tak sie robi ogolnie ?
+//bedziemy uzywac jakiegos normalize.css czy cos w tym stylu?
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
